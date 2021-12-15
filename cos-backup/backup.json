@@ -1,0 +1,47 @@
+{
+  "backup": [
+    {
+      "bucket": "backup-1255835707",
+      "region": "ap-beijing",
+      "folder": true,
+      "local_path": "C:/Users/aecra/Desktop",
+      "cos_path": "Desktop",
+      "sync": true,
+      "force": false,
+      "skip_confirmation": true,
+      "include": [],
+      "ignore": ["*/node_modules/*", "*/build/*"],
+      "skipmd5": false,
+      "delete": true
+    },
+    {
+      "bucket": "backup-1255835707",
+      "region": "ap-beijing",
+      "folder": true,
+      "local_path": "F:/workspace",
+      "cos_path": "workspace",
+      "sync": true,
+      "force": false,
+      "skip_confirmation": true,
+      "include": [],
+      "ignore": ["*/node_modules/*", "*/build/*"],
+      "skipmd5": false,
+      "delete": true
+    },
+    {
+      "bucket": "backup-1255835707",
+      "region": "ap-beijing",
+      "folder": false,
+      "packed": true,
+      "local_path": "F:/clash/config.yaml",
+      "cos_path": "dabao/clash.zip",
+      "sync": true,
+      "force": false,
+      "skip_confirmation": true,
+      "include": [],
+      "ignore": ["*/node_modules/*", "*/build/*"],
+      "skipmd5": false,
+      "delete": true
+    }
+  ]
+}
